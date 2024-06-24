@@ -1,11 +1,16 @@
 // creo variabile per vue
 const { createApp } = Vue;
 
-// invoco la funzione
+// invoco la funzione 
 createApp({
     data() {
         return {
-            message: "ciao, sono un titolo"
+            // titolo
+            message: "ciao, sono un titolo",
+
+            // immagine
+            source: "https://picsum.photos/200/300"
         }
     }
-}).mount("#title");
+}).mount("#container");
+
